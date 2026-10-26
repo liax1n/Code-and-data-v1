@@ -1,0 +1,20 @@
+Upward hydraulic gradient proxy statistics
+Variable: vertical total-head gradient between 0.40 m and 0.75 m
+Definition: positive values indicate stronger upward hydraulic driving force
+Statistic object: seasonal / annual spatial mean upward hydraulic gradient
+Unit: dimensionless hydraulic gradient
+
+Annual / 全年
+min  = -3.150117
+max  = 2.739294
+mean = -0.566316
+
+Non-flood season / 非汛期（Oct-Jun）
+min  = -3.133622
+max  = 2.249121
+mean = -0.553785
+
+Flood season / 汛期（Jul-Sep）
+min  = -3.199064
+max  = 4.193829
+mean = -0.603501

@@ -1,0 +1,926 @@
+======================================================================
+Folder Structure Export Report
+======================================================================
+Root directory       : D:\janet\论文\20261026
+Generated at         : 2026-10-26 10:43:36
+Include hidden items : False
+======================================================================
+
+[Directory Tree]
+----------------------------------------------------------------------
+20261026/
+├── 1_input_data/
+│   ├── clm_input/
+│   │   ├── drv_clmin_2004.dat (5937 B)
+│   │   ├── drv_clmin_2019.dat (5984 B)
+│   │   ├── drv_vegm.alluv2000.dat (4943016 B)
+│   │   ├── drv_vegm.alluv2019.dat (4943016 B)
+│   │   └── drv_vegp.dat (4360 B)
+│   ├── forcings/
+│   │   └── Readme.txt (195 B)
+│   └── pfb_files/
+│       ├── DTB.pfb (5280100 B)
+│       ├── DTB.sa (4620012 B)
+│       ├── IndicatorFile.pfb (5280100 B)
+│       ├── IndicatorFile.sa (4224012 B)
+│       ├── mannings2000_new.pfb (528100 B)
+│       ├── mannings2019_new.pfb (528100 B)
+│       ├── mao.out.porosity.pfb (5282044 B)
+│       ├── permeability.pfb (5280100 B)
+│       ├── permeability.sa (5280012 B)
+│       ├── sa2pfb.sh (456 B)
+│       ├── sa2pfb.tcl (277 B)
+│       ├── slopex.pfb (528100 B)
+│       └── slopey.pfb (528100 B)
+├── 2_codes_and_outputs/
+│   ├── 1_WTD_daily/
+│   │   ├── S1_WTD_daily.npy (192720128 B)
+│   │   ├── S2_WTD_daily.npy (192720128 B)
+│   │   ├── S3_WTD_daily.npy (192720128 B)
+│   │   ├── S4_WTD_daily.npy (192720128 B)
+│   │   ├── S5_WTD_daily.npy (192720128 B)
+│   │   ├── S6_WTD_daily.npy (192720128 B)
+│   │   ├── S7_WTD_daily.npy (192720128 B)
+│   │   ├── S8_WTD_daily.npy (192720128 B)
+│   │   └── run_WTD.py (2802 B)
+│   ├── 2_q/
+│   │   ├── 1shenmu_new.tcl (4617 B)
+│   │   ├── 2gaojiabao_new.tcl (4273 B)
+│   │   ├── 3zhaoshiyao_new.tcl (4258 B)
+│   │   ├── 4hanjiamao_new.tcl (4257 B)
+│   │   ├── 5hengshan_new.tcl (4255 B)
+│   │   ├── 6dianshi_new.tcl (4254 B)
+│   │   ├── S1/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9791 B)
+│   │   │   │   ├── 317_141.png (84322 B)
+│   │   │   │   └── 317_141.txt (404638 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9753 B)
+│   │   │   │   ├── 296_117.png (81198 B)
+│   │   │   │   └── 296_117.txt (404713 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9858 B)
+│   │   │   │   ├── 244_59.png (98760 B)
+│   │   │   │   └── 244_59.txt (406098 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10259 B)
+│   │   │   │   ├── 187_81.png (89957 B)
+│   │   │   │   └── 187_81.txt (422327 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10095 B)
+│   │   │   │   ├── 196_58.png (87118 B)
+│   │   │   │   └── 196_58.txt (413516 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10481 B)
+│   │   │       ├── 218_56.png (80737 B)
+│   │   │       └── 218_56.txt (418699 B)
+│   │   ├── S2/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9931 B)
+│   │   │   │   ├── 317_141.png (92531 B)
+│   │   │   │   └── 317_141.txt (405199 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9740 B)
+│   │   │   │   ├── 296_117.png (81192 B)
+│   │   │   │   └── 296_117.txt (404737 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9799 B)
+│   │   │   │   ├── 244_59.png (93616 B)
+│   │   │   │   └── 244_59.txt (404686 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10203 B)
+│   │   │   │   ├── 187_81.png (86891 B)
+│   │   │   │   └── 187_81.txt (420115 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10091 B)
+│   │   │   │   ├── 196_58.png (86542 B)
+│   │   │   │   └── 196_58.txt (413419 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10519 B)
+│   │   │       ├── 218_56.png (79775 B)
+│   │   │       └── 218_56.txt (418379 B)
+│   │   ├── S3/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9764 B)
+│   │   │   │   ├── 317_141.png (82011 B)
+│   │   │   │   └── 317_141.txt (404008 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9739 B)
+│   │   │   │   ├── 296_117.png (76336 B)
+│   │   │   │   └── 296_117.txt (404266 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9819 B)
+│   │   │   │   ├── 244_59.png (96423 B)
+│   │   │   │   └── 244_59.txt (405425 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10285 B)
+│   │   │   │   ├── 187_81.png (86339 B)
+│   │   │   │   └── 187_81.txt (422299 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10074 B)
+│   │   │   │   ├── 196_58.png (83658 B)
+│   │   │   │   └── 196_58.txt (413671 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10480 B)
+│   │   │       ├── 218_56.png (77901 B)
+│   │   │       └── 218_56.txt (418029 B)
+│   │   ├── S4/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9806 B)
+│   │   │   │   ├── 317_141.png (84167 B)
+│   │   │   │   └── 317_141.txt (404523 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9728 B)
+│   │   │   │   ├── 296_117.png (81531 B)
+│   │   │   │   └── 296_117.txt (404777 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9841 B)
+│   │   │   │   ├── 244_59.png (98599 B)
+│   │   │   │   └── 244_59.txt (406116 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10285 B)
+│   │   │   │   ├── 187_81.png (90445 B)
+│   │   │   │   └── 187_81.txt (422549 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10087 B)
+│   │   │   │   ├── 196_58.png (87394 B)
+│   │   │   │   └── 196_58.txt (413368 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10493 B)
+│   │   │       ├── 218_56.png (80463 B)
+│   │   │       └── 218_56.txt (418702 B)
+│   │   ├── S5/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9959 B)
+│   │   │   │   ├── 317_141.png (86890 B)
+│   │   │   │   └── 317_141.txt (405450 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9724 B)
+│   │   │   │   ├── 296_117.png (75996 B)
+│   │   │   │   └── 296_117.txt (404238 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9764 B)
+│   │   │   │   ├── 244_59.png (89969 B)
+│   │   │   │   └── 244_59.txt (403479 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10184 B)
+│   │   │   │   ├── 187_81.png (85304 B)
+│   │   │   │   └── 187_81.txt (419818 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10074 B)
+│   │   │   │   ├── 196_58.png (83945 B)
+│   │   │   │   └── 196_58.txt (413713 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10491 B)
+│   │   │       ├── 218_56.png (76650 B)
+│   │   │       └── 218_56.txt (418056 B)
+│   │   ├── S6/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9937 B)
+│   │   │   │   ├── 317_141.png (92184 B)
+│   │   │   │   └── 317_141.txt (405054 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9758 B)
+│   │   │   │   ├── 296_117.png (81008 B)
+│   │   │   │   └── 296_117.txt (404633 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9793 B)
+│   │   │   │   ├── 244_59.png (93396 B)
+│   │   │   │   └── 244_59.txt (404534 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10201 B)
+│   │   │   │   ├── 187_81.png (88376 B)
+│   │   │   │   └── 187_81.txt (420361 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10097 B)
+│   │   │   │   ├── 196_58.png (86157 B)
+│   │   │   │   └── 196_58.txt (413444 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10495 B)
+│   │   │       ├── 218_56.png (79968 B)
+│   │   │       └── 218_56.txt (418317 B)
+│   │   ├── S7/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9755 B)
+│   │   │   │   ├── 317_141.png (81477 B)
+│   │   │   │   └── 317_141.txt (403990 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9712 B)
+│   │   │   │   ├── 296_117.png (75788 B)
+│   │   │   │   └── 296_117.txt (404278 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9816 B)
+│   │   │   │   ├── 244_59.png (96183 B)
+│   │   │   │   └── 244_59.txt (405467 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10270 B)
+│   │   │   │   ├── 187_81.png (87017 B)
+│   │   │   │   └── 187_81.txt (422399 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10085 B)
+│   │   │   │   ├── 196_58.png (83462 B)
+│   │   │   │   └── 196_58.txt (413676 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10496 B)
+│   │   │       ├── 218_56.png (77482 B)
+│   │   │       └── 218_56.txt (418235 B)
+│   │   ├── S8/
+│   │   │   ├── 1shenmu/
+│   │   │   │   ├── 317_141.csv (9769 B)
+│   │   │   │   ├── 317_141.png (81690 B)
+│   │   │   │   └── 317_141.txt (403952 B)
+│   │   │   ├── 2gaojiabao/
+│   │   │   │   ├── 296_117.csv (9718 B)
+│   │   │   │   ├── 296_117.png (75882 B)
+│   │   │   │   └── 296_117.txt (404220 B)
+│   │   │   ├── 3zhaoshiyao/
+│   │   │   │   ├── 244_59.csv (9802 B)
+│   │   │   │   ├── 244_59.png (95959 B)
+│   │   │   │   └── 244_59.txt (405502 B)
+│   │   │   ├── 4hanjiamao/
+│   │   │   │   ├── 187_81.csv (10274 B)
+│   │   │   │   ├── 187_81.png (86854 B)
+│   │   │   │   └── 187_81.txt (422559 B)
+│   │   │   ├── 5hengshan/
+│   │   │   │   ├── 196_58.csv (10085 B)
+│   │   │   │   ├── 196_58.png (83462 B)
+│   │   │   │   └── 196_58.txt (413568 B)
+│   │   │   └── 6dianshi/
+│   │   │       ├── 218_56.csv (10474 B)
+│   │   │       ├── 218_56.png (77413 B)
+│   │   │       └── 218_56.txt (418232 B)
+│   │   ├── all_Calcul_q_new.sh (818 B)
+│   │   └── hour2day_new.py (3189 B)
+│   ├── 3_ET/
+│   │   ├── ET_daily_all1.npy (192720128 B)
+│   │   ├── ET_daily_all2.npy (192720128 B)
+│   │   ├── ET_daily_all3.npy (192720128 B)
+│   │   ├── ET_daily_all4.npy (192720128 B)
+│   │   ├── ET_daily_all5.npy (192720128 B)
+│   │   ├── ET_daily_all6.npy (192720128 B)
+│   │   ├── ET_daily_all7.npy (192720128 B)
+│   │   ├── ET_daily_all8.npy (192720128 B)
+│   │   └── run_ET.py (2522 B)
+│   ├── 4_1_gradient_darcy/
+│   │   ├── 7_1_run_gradient.py (10886 B)
+│   │   ├── S1/
+│   │   │   ├── current_scenario_annual_head_gradient_3layers.npy (1584128 B)
+│   │   │   ├── current_scenario_annual_spatial_upward_hydraulic_gradient.csv (637856 B)
+│   │   │   ├── current_scenario_flood_spatial_upward_hydraulic_gradient.csv (637189 B)
+│   │   │   ├── current_scenario_mean_press_layer6_center_0p75m.csv (1684970 B)
+│   │   │   ├── current_scenario_mean_press_layer7_center_0p40m.csv (1687945 B)
+│   │   │   ├── current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv (638076 B)
+│   │   │   ├── current_scenario_regional_upward_hydraulic_gradient_statistics.csv (100 B)
+│   │   │   ├── current_scenario_regional_upward_hydraulic_gradient_statistics.txt (545 B)
+│   │   │   └── current_scenario_upward_hydraulic_gradient_proxy.csv (1693856 B)
+│   │   ├── S2/
+│   │   │   ├── current_scenario_annual_head_gradient_3layers.npy (1584128 B)
+│   │   │   ├── current_scenario_annual_spatial_upward_hydraulic_gradient.csv (637836 B)
+│   │   │   ├── current_scenario_flood_spatial_upward_hydraulic_gradient.csv (637126 B)
+│   │   │   ├── current_scenario_mean_press_layer6_0p75m.png (374740 B)
+│   │   │   ├── current_scenario_mean_press_layer6_center_0p75m.csv (1685003 B)
+│   │   │   ├── current_scenario_mean_press_layer7_0p40m.png (372247 B)
+│   │   │   ├── current_scenario_mean_press_layer7_center_0p40m.csv (1688086 B)
+│   │   │   ├── current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv (638063 B)
+│   │   │   ├── current_scenario_regional_upward_hydraulic_gradient_statistics.csv (100 B)
+│   │   │   ├── current_scenario_regional_upward_hydraulic_gradient_statistics.txt (545 B)
+│   │   │   ├── current_scenario_upward_hydraulic_gradient_proxy.csv (1693836 B)
+│   │   │   └── current_scenario_upward_hydraulic_gradient_proxy.png (339478 B)
+│   │   └── S3/
+│   │       ├── current_scenario_annual_head_gradient_3layers.npy (1584128 B)
+│   │       ├── current_scenario_annual_spatial_upward_hydraulic_gradient.csv (637928 B)
+│   │       ├── current_scenario_flood_spatial_upward_hydraulic_gradient.csv (637365 B)
+│   │       ├── current_scenario_mean_press_layer6_center_0p75m.csv (1684886 B)
+│   │       ├── current_scenario_mean_press_layer7_center_0p40m.csv (1687363 B)
+│   │       ├── current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv (638116 B)
+│   │       ├── current_scenario_regional_upward_hydraulic_gradient_statistics.csv (100 B)
+│   │       ├── current_scenario_regional_upward_hydraulic_gradient_statistics.txt (545 B)
+│   │       └── current_scenario_upward_hydraulic_gradient_proxy.csv (1693928 B)
+│   ├── 4_2_rootzone_water_availability/
+│   │   ├── 7_2_rootzone_water_availability.py (11537 B)
+│   │   ├── S1/
+│   │   │   ├── current_scenario_annual_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_annual_rootzone_water_availability_0_1m.npy (528128 B)
+│   │   │   ├── current_scenario_flood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_nonflood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_regional_rootzone_water_availability_statistics.csv (94 B)
+│   │   │   └── current_scenario_regional_rootzone_water_availability_statistics.txt (448 B)
+│   │   ├── S2/
+│   │   │   ├── current_scenario_annual_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_annual_rootzone_water_availability_0_1m.npy (528128 B)
+│   │   │   ├── current_scenario_flood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_nonflood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │   │   ├── current_scenario_regional_rootzone_water_availability_statistics.csv (94 B)
+│   │   │   └── current_scenario_regional_rootzone_water_availability_statistics.txt (448 B)
+│   │   └── S3/
+│   │       ├── current_scenario_annual_rootzone_water_availability_0_1m.csv (594000 B)
+│   │       ├── current_scenario_annual_rootzone_water_availability_0_1m.npy (528128 B)
+│   │       ├── current_scenario_flood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │       ├── current_scenario_nonflood_rootzone_water_availability_0_1m.csv (594000 B)
+│   │       ├── current_scenario_regional_rootzone_water_availability_statistics.csv (94 B)
+│   │       └── current_scenario_regional_rootzone_water_availability_statistics.txt (448 B)
+│   ├── 4_3_veg_trans_mmday/
+│   │   ├── 7_3_run_evap.py (11778 B)
+│   │   ├── S1/
+│   │   │   ├── annual_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── daily_mmday.npy (192720128 B)
+│   │   │   ├── daily_regional_mean_transpiration_mmday.csv (9179 B)
+│   │   │   ├── daily_regional_mean_transpiration_mmday.npy (3048 B)
+│   │   │   ├── flood_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── nonflood_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── regional_transpiration_statistics.csv (94 B)
+│   │   │   └── regional_transpiration_statistics.txt (403 B)
+│   │   ├── S2/
+│   │   │   ├── annual_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── daily_mmday.npy (192720128 B)
+│   │   │   ├── daily_regional_mean_transpiration_mmday.csv (9179 B)
+│   │   │   ├── daily_regional_mean_transpiration_mmday.npy (3048 B)
+│   │   │   ├── flood_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── nonflood_spatial_transpiration_mmday.csv (594000 B)
+│   │   │   ├── regional_transpiration_statistics.csv (94 B)
+│   │   │   └── regional_transpiration_statistics.txt (403 B)
+│   │   └── S3/
+│   │       ├── annual_spatial_transpiration_mmday.csv (594000 B)
+│   │       ├── daily_mmday.npy (192720128 B)
+│   │       ├── daily_regional_mean_transpiration_mmday.csv (9179 B)
+│   │       ├── daily_regional_mean_transpiration_mmday.npy (3048 B)
+│   │       ├── flood_spatial_transpiration_mmday.csv (594000 B)
+│   │       ├── nonflood_spatial_transpiration_mmday.csv (594000 B)
+│   │       ├── regional_transpiration_statistics.csv (94 B)
+│   │       └── regional_transpiration_statistics.txt (403 B)
+│   ├── 4_4_sh/
+│   │   ├── 7_4_run_sh.py (12348 B)
+│   │   ├── S1_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S2_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S3_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S4_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S5_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S6_qflx_sh_tot.npy (192720128 B)
+│   │   ├── S7_qflx_sh_tot.npy (192720128 B)
+│   │   └── S8_qflx_sh_tot.npy (192720128 B)
+│   └── 4_5_lh/
+│       ├── 7_5_run_lh.py (12660 B)
+│       ├── S1_qflx_lh_tot.npy (192720128 B)
+│       ├── S2_qflx_lh_tot.npy (192720128 B)
+│       ├── S3_qflx_lh_tot.npy (192720128 B)
+│       ├── S4_qflx_lh_tot.npy (192720128 B)
+│       ├── S5_qflx_lh_tot.npy (192720128 B)
+│       ├── S6_qflx_lh_tot.npy (192720128 B)
+│       ├── S7_qflx_lh_tot.npy (192720128 B)
+│       └── S8_qflx_lh_tot.npy (192720128 B)
+├── 3_fig/
+│   ├── figure1.png (3346888 B)
+│   ├── figure10.png (1872836 B)
+│   ├── figure11.png (6173980 B)
+│   ├── figure12.png (3104689 B)
+│   ├── figure13.png (5511543 B)
+│   ├── figure14.png (2817284 B)
+│   ├── figure15.png (6763061 B)
+│   ├── figure16.png (2379424 B)
+│   ├── figure2.png (2288876 B)
+│   ├── figure3.png (874846 B)
+│   ├── figure4.png (1978017 B)
+│   ├── figure5.png (1797213 B)
+│   ├── figure6.png (1595918 B)
+│   ├── figure7.png (2141386 B)
+│   ├── figure8.png (1459044 B)
+│   └── figure9.png (1221021 B)
+├── README1.md (6121 B)
+├── folder_structure.txt (63138 B)
+└── inventory_upload_folder.py (4643 B)
+
+======================================================================
+
+[Detailed File Structure]
+----------------------------------------------------------------------
+
+  📄 README1.md  (6121 bytes, README1.md)
+  📄 folder_structure.txt  (63138 bytes, folder_structure.txt)
+  📄 inventory_upload_folder.py  (4643 bytes, inventory_upload_folder.py)
+
+📁 1_input_data/  (1_input_data)
+------------------------------------------------------------
+📁 clm_input/  (1_input_data\clm_input)
+------------------------------------------------------------
+  📄 drv_clmin_2004.dat  (5937 bytes, 1_input_data\clm_input\drv_clmin_2004.dat)
+  📄 drv_clmin_2019.dat  (5984 bytes, 1_input_data\clm_input\drv_clmin_2019.dat)
+  📄 drv_vegm.alluv2000.dat  (4943016 bytes, 1_input_data\clm_input\drv_vegm.alluv2000.dat)
+  📄 drv_vegm.alluv2019.dat  (4943016 bytes, 1_input_data\clm_input\drv_vegm.alluv2019.dat)
+  📄 drv_vegp.dat  (4360 bytes, 1_input_data\clm_input\drv_vegp.dat)
+
+📁 forcings/  (1_input_data\forcings)
+------------------------------------------------------------
+  📄 Readme.txt  (195 bytes, 1_input_data\forcings\Readme.txt)
+
+📁 pfb_files/  (1_input_data\pfb_files)
+------------------------------------------------------------
+  📄 DTB.pfb  (5280100 bytes, 1_input_data\pfb_files\DTB.pfb)
+  📄 DTB.sa  (4620012 bytes, 1_input_data\pfb_files\DTB.sa)
+  📄 IndicatorFile.pfb  (5280100 bytes, 1_input_data\pfb_files\IndicatorFile.pfb)
+  📄 IndicatorFile.sa  (4224012 bytes, 1_input_data\pfb_files\IndicatorFile.sa)
+  📄 mannings2000_new.pfb  (528100 bytes, 1_input_data\pfb_files\mannings2000_new.pfb)
+  📄 mannings2019_new.pfb  (528100 bytes, 1_input_data\pfb_files\mannings2019_new.pfb)
+  📄 mao.out.porosity.pfb  (5282044 bytes, 1_input_data\pfb_files\mao.out.porosity.pfb)
+  📄 permeability.pfb  (5280100 bytes, 1_input_data\pfb_files\permeability.pfb)
+  📄 permeability.sa  (5280012 bytes, 1_input_data\pfb_files\permeability.sa)
+  📄 sa2pfb.sh  (456 bytes, 1_input_data\pfb_files\sa2pfb.sh)
+  📄 sa2pfb.tcl  (277 bytes, 1_input_data\pfb_files\sa2pfb.tcl)
+  📄 slopex.pfb  (528100 bytes, 1_input_data\pfb_files\slopex.pfb)
+  📄 slopey.pfb  (528100 bytes, 1_input_data\pfb_files\slopey.pfb)
+
+📁 2_codes_and_outputs/  (2_codes_and_outputs)
+------------------------------------------------------------
+📁 1_WTD_daily/  (2_codes_and_outputs\1_WTD_daily)
+------------------------------------------------------------
+  📄 S1_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S1_WTD_daily.npy)
+  📄 S2_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S2_WTD_daily.npy)
+  📄 S3_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S3_WTD_daily.npy)
+  📄 S4_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S4_WTD_daily.npy)
+  📄 S5_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S5_WTD_daily.npy)
+  📄 S6_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S6_WTD_daily.npy)
+  📄 S7_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S7_WTD_daily.npy)
+  📄 S8_WTD_daily.npy  (192720128 bytes, 2_codes_and_outputs\1_WTD_daily\S8_WTD_daily.npy)
+  📄 run_WTD.py  (2802 bytes, 2_codes_and_outputs\1_WTD_daily\run_WTD.py)
+
+📁 2_q/  (2_codes_and_outputs\2_q)
+------------------------------------------------------------
+  📄 1shenmu_new.tcl  (4617 bytes, 2_codes_and_outputs\2_q\1shenmu_new.tcl)
+  📄 2gaojiabao_new.tcl  (4273 bytes, 2_codes_and_outputs\2_q\2gaojiabao_new.tcl)
+  📄 3zhaoshiyao_new.tcl  (4258 bytes, 2_codes_and_outputs\2_q\3zhaoshiyao_new.tcl)
+  📄 4hanjiamao_new.tcl  (4257 bytes, 2_codes_and_outputs\2_q\4hanjiamao_new.tcl)
+  📄 5hengshan_new.tcl  (4255 bytes, 2_codes_and_outputs\2_q\5hengshan_new.tcl)
+  📄 6dianshi_new.tcl  (4254 bytes, 2_codes_and_outputs\2_q\6dianshi_new.tcl)
+  📄 all_Calcul_q_new.sh  (818 bytes, 2_codes_and_outputs\2_q\all_Calcul_q_new.sh)
+  📄 hour2day_new.py  (3189 bytes, 2_codes_and_outputs\2_q\hour2day_new.py)
+
+📁 S1/  (2_codes_and_outputs\2_q\S1)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S1\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9791 bytes, 2_codes_and_outputs\2_q\S1\1shenmu\317_141.csv)
+  📄 317_141.png  (84322 bytes, 2_codes_and_outputs\2_q\S1\1shenmu\317_141.png)
+  📄 317_141.txt  (404638 bytes, 2_codes_and_outputs\2_q\S1\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S1\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9753 bytes, 2_codes_and_outputs\2_q\S1\2gaojiabao\296_117.csv)
+  📄 296_117.png  (81198 bytes, 2_codes_and_outputs\2_q\S1\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404713 bytes, 2_codes_and_outputs\2_q\S1\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S1\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9858 bytes, 2_codes_and_outputs\2_q\S1\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (98760 bytes, 2_codes_and_outputs\2_q\S1\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (406098 bytes, 2_codes_and_outputs\2_q\S1\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S1\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10259 bytes, 2_codes_and_outputs\2_q\S1\4hanjiamao\187_81.csv)
+  📄 187_81.png  (89957 bytes, 2_codes_and_outputs\2_q\S1\4hanjiamao\187_81.png)
+  📄 187_81.txt  (422327 bytes, 2_codes_and_outputs\2_q\S1\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S1\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10095 bytes, 2_codes_and_outputs\2_q\S1\5hengshan\196_58.csv)
+  📄 196_58.png  (87118 bytes, 2_codes_and_outputs\2_q\S1\5hengshan\196_58.png)
+  📄 196_58.txt  (413516 bytes, 2_codes_and_outputs\2_q\S1\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S1\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10481 bytes, 2_codes_and_outputs\2_q\S1\6dianshi\218_56.csv)
+  📄 218_56.png  (80737 bytes, 2_codes_and_outputs\2_q\S1\6dianshi\218_56.png)
+  📄 218_56.txt  (418699 bytes, 2_codes_and_outputs\2_q\S1\6dianshi\218_56.txt)
+
+📁 S2/  (2_codes_and_outputs\2_q\S2)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S2\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9931 bytes, 2_codes_and_outputs\2_q\S2\1shenmu\317_141.csv)
+  📄 317_141.png  (92531 bytes, 2_codes_and_outputs\2_q\S2\1shenmu\317_141.png)
+  📄 317_141.txt  (405199 bytes, 2_codes_and_outputs\2_q\S2\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S2\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9740 bytes, 2_codes_and_outputs\2_q\S2\2gaojiabao\296_117.csv)
+  📄 296_117.png  (81192 bytes, 2_codes_and_outputs\2_q\S2\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404737 bytes, 2_codes_and_outputs\2_q\S2\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S2\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9799 bytes, 2_codes_and_outputs\2_q\S2\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (93616 bytes, 2_codes_and_outputs\2_q\S2\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (404686 bytes, 2_codes_and_outputs\2_q\S2\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S2\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10203 bytes, 2_codes_and_outputs\2_q\S2\4hanjiamao\187_81.csv)
+  📄 187_81.png  (86891 bytes, 2_codes_and_outputs\2_q\S2\4hanjiamao\187_81.png)
+  📄 187_81.txt  (420115 bytes, 2_codes_and_outputs\2_q\S2\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S2\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10091 bytes, 2_codes_and_outputs\2_q\S2\5hengshan\196_58.csv)
+  📄 196_58.png  (86542 bytes, 2_codes_and_outputs\2_q\S2\5hengshan\196_58.png)
+  📄 196_58.txt  (413419 bytes, 2_codes_and_outputs\2_q\S2\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S2\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10519 bytes, 2_codes_and_outputs\2_q\S2\6dianshi\218_56.csv)
+  📄 218_56.png  (79775 bytes, 2_codes_and_outputs\2_q\S2\6dianshi\218_56.png)
+  📄 218_56.txt  (418379 bytes, 2_codes_and_outputs\2_q\S2\6dianshi\218_56.txt)
+
+📁 S3/  (2_codes_and_outputs\2_q\S3)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S3\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9764 bytes, 2_codes_and_outputs\2_q\S3\1shenmu\317_141.csv)
+  📄 317_141.png  (82011 bytes, 2_codes_and_outputs\2_q\S3\1shenmu\317_141.png)
+  📄 317_141.txt  (404008 bytes, 2_codes_and_outputs\2_q\S3\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S3\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9739 bytes, 2_codes_and_outputs\2_q\S3\2gaojiabao\296_117.csv)
+  📄 296_117.png  (76336 bytes, 2_codes_and_outputs\2_q\S3\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404266 bytes, 2_codes_and_outputs\2_q\S3\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S3\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9819 bytes, 2_codes_and_outputs\2_q\S3\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (96423 bytes, 2_codes_and_outputs\2_q\S3\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (405425 bytes, 2_codes_and_outputs\2_q\S3\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S3\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10285 bytes, 2_codes_and_outputs\2_q\S3\4hanjiamao\187_81.csv)
+  📄 187_81.png  (86339 bytes, 2_codes_and_outputs\2_q\S3\4hanjiamao\187_81.png)
+  📄 187_81.txt  (422299 bytes, 2_codes_and_outputs\2_q\S3\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S3\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10074 bytes, 2_codes_and_outputs\2_q\S3\5hengshan\196_58.csv)
+  📄 196_58.png  (83658 bytes, 2_codes_and_outputs\2_q\S3\5hengshan\196_58.png)
+  📄 196_58.txt  (413671 bytes, 2_codes_and_outputs\2_q\S3\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S3\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10480 bytes, 2_codes_and_outputs\2_q\S3\6dianshi\218_56.csv)
+  📄 218_56.png  (77901 bytes, 2_codes_and_outputs\2_q\S3\6dianshi\218_56.png)
+  📄 218_56.txt  (418029 bytes, 2_codes_and_outputs\2_q\S3\6dianshi\218_56.txt)
+
+📁 S4/  (2_codes_and_outputs\2_q\S4)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S4\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9806 bytes, 2_codes_and_outputs\2_q\S4\1shenmu\317_141.csv)
+  📄 317_141.png  (84167 bytes, 2_codes_and_outputs\2_q\S4\1shenmu\317_141.png)
+  📄 317_141.txt  (404523 bytes, 2_codes_and_outputs\2_q\S4\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S4\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9728 bytes, 2_codes_and_outputs\2_q\S4\2gaojiabao\296_117.csv)
+  📄 296_117.png  (81531 bytes, 2_codes_and_outputs\2_q\S4\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404777 bytes, 2_codes_and_outputs\2_q\S4\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S4\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9841 bytes, 2_codes_and_outputs\2_q\S4\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (98599 bytes, 2_codes_and_outputs\2_q\S4\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (406116 bytes, 2_codes_and_outputs\2_q\S4\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S4\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10285 bytes, 2_codes_and_outputs\2_q\S4\4hanjiamao\187_81.csv)
+  📄 187_81.png  (90445 bytes, 2_codes_and_outputs\2_q\S4\4hanjiamao\187_81.png)
+  📄 187_81.txt  (422549 bytes, 2_codes_and_outputs\2_q\S4\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S4\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10087 bytes, 2_codes_and_outputs\2_q\S4\5hengshan\196_58.csv)
+  📄 196_58.png  (87394 bytes, 2_codes_and_outputs\2_q\S4\5hengshan\196_58.png)
+  📄 196_58.txt  (413368 bytes, 2_codes_and_outputs\2_q\S4\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S4\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10493 bytes, 2_codes_and_outputs\2_q\S4\6dianshi\218_56.csv)
+  📄 218_56.png  (80463 bytes, 2_codes_and_outputs\2_q\S4\6dianshi\218_56.png)
+  📄 218_56.txt  (418702 bytes, 2_codes_and_outputs\2_q\S4\6dianshi\218_56.txt)
+
+📁 S5/  (2_codes_and_outputs\2_q\S5)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S5\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9959 bytes, 2_codes_and_outputs\2_q\S5\1shenmu\317_141.csv)
+  📄 317_141.png  (86890 bytes, 2_codes_and_outputs\2_q\S5\1shenmu\317_141.png)
+  📄 317_141.txt  (405450 bytes, 2_codes_and_outputs\2_q\S5\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S5\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9724 bytes, 2_codes_and_outputs\2_q\S5\2gaojiabao\296_117.csv)
+  📄 296_117.png  (75996 bytes, 2_codes_and_outputs\2_q\S5\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404238 bytes, 2_codes_and_outputs\2_q\S5\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S5\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9764 bytes, 2_codes_and_outputs\2_q\S5\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (89969 bytes, 2_codes_and_outputs\2_q\S5\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (403479 bytes, 2_codes_and_outputs\2_q\S5\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S5\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10184 bytes, 2_codes_and_outputs\2_q\S5\4hanjiamao\187_81.csv)
+  📄 187_81.png  (85304 bytes, 2_codes_and_outputs\2_q\S5\4hanjiamao\187_81.png)
+  📄 187_81.txt  (419818 bytes, 2_codes_and_outputs\2_q\S5\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S5\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10074 bytes, 2_codes_and_outputs\2_q\S5\5hengshan\196_58.csv)
+  📄 196_58.png  (83945 bytes, 2_codes_and_outputs\2_q\S5\5hengshan\196_58.png)
+  📄 196_58.txt  (413713 bytes, 2_codes_and_outputs\2_q\S5\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S5\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10491 bytes, 2_codes_and_outputs\2_q\S5\6dianshi\218_56.csv)
+  📄 218_56.png  (76650 bytes, 2_codes_and_outputs\2_q\S5\6dianshi\218_56.png)
+  📄 218_56.txt  (418056 bytes, 2_codes_and_outputs\2_q\S5\6dianshi\218_56.txt)
+
+📁 S6/  (2_codes_and_outputs\2_q\S6)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S6\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9937 bytes, 2_codes_and_outputs\2_q\S6\1shenmu\317_141.csv)
+  📄 317_141.png  (92184 bytes, 2_codes_and_outputs\2_q\S6\1shenmu\317_141.png)
+  📄 317_141.txt  (405054 bytes, 2_codes_and_outputs\2_q\S6\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S6\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9758 bytes, 2_codes_and_outputs\2_q\S6\2gaojiabao\296_117.csv)
+  📄 296_117.png  (81008 bytes, 2_codes_and_outputs\2_q\S6\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404633 bytes, 2_codes_and_outputs\2_q\S6\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S6\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9793 bytes, 2_codes_and_outputs\2_q\S6\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (93396 bytes, 2_codes_and_outputs\2_q\S6\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (404534 bytes, 2_codes_and_outputs\2_q\S6\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S6\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10201 bytes, 2_codes_and_outputs\2_q\S6\4hanjiamao\187_81.csv)
+  📄 187_81.png  (88376 bytes, 2_codes_and_outputs\2_q\S6\4hanjiamao\187_81.png)
+  📄 187_81.txt  (420361 bytes, 2_codes_and_outputs\2_q\S6\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S6\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10097 bytes, 2_codes_and_outputs\2_q\S6\5hengshan\196_58.csv)
+  📄 196_58.png  (86157 bytes, 2_codes_and_outputs\2_q\S6\5hengshan\196_58.png)
+  📄 196_58.txt  (413444 bytes, 2_codes_and_outputs\2_q\S6\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S6\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10495 bytes, 2_codes_and_outputs\2_q\S6\6dianshi\218_56.csv)
+  📄 218_56.png  (79968 bytes, 2_codes_and_outputs\2_q\S6\6dianshi\218_56.png)
+  📄 218_56.txt  (418317 bytes, 2_codes_and_outputs\2_q\S6\6dianshi\218_56.txt)
+
+📁 S7/  (2_codes_and_outputs\2_q\S7)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S7\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9755 bytes, 2_codes_and_outputs\2_q\S7\1shenmu\317_141.csv)
+  📄 317_141.png  (81477 bytes, 2_codes_and_outputs\2_q\S7\1shenmu\317_141.png)
+  📄 317_141.txt  (403990 bytes, 2_codes_and_outputs\2_q\S7\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S7\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9712 bytes, 2_codes_and_outputs\2_q\S7\2gaojiabao\296_117.csv)
+  📄 296_117.png  (75788 bytes, 2_codes_and_outputs\2_q\S7\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404278 bytes, 2_codes_and_outputs\2_q\S7\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S7\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9816 bytes, 2_codes_and_outputs\2_q\S7\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (96183 bytes, 2_codes_and_outputs\2_q\S7\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (405467 bytes, 2_codes_and_outputs\2_q\S7\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S7\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10270 bytes, 2_codes_and_outputs\2_q\S7\4hanjiamao\187_81.csv)
+  📄 187_81.png  (87017 bytes, 2_codes_and_outputs\2_q\S7\4hanjiamao\187_81.png)
+  📄 187_81.txt  (422399 bytes, 2_codes_and_outputs\2_q\S7\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S7\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10085 bytes, 2_codes_and_outputs\2_q\S7\5hengshan\196_58.csv)
+  📄 196_58.png  (83462 bytes, 2_codes_and_outputs\2_q\S7\5hengshan\196_58.png)
+  📄 196_58.txt  (413676 bytes, 2_codes_and_outputs\2_q\S7\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S7\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10496 bytes, 2_codes_and_outputs\2_q\S7\6dianshi\218_56.csv)
+  📄 218_56.png  (77482 bytes, 2_codes_and_outputs\2_q\S7\6dianshi\218_56.png)
+  📄 218_56.txt  (418235 bytes, 2_codes_and_outputs\2_q\S7\6dianshi\218_56.txt)
+
+📁 S8/  (2_codes_and_outputs\2_q\S8)
+------------------------------------------------------------
+📁 1shenmu/  (2_codes_and_outputs\2_q\S8\1shenmu)
+------------------------------------------------------------
+  📄 317_141.csv  (9769 bytes, 2_codes_and_outputs\2_q\S8\1shenmu\317_141.csv)
+  📄 317_141.png  (81690 bytes, 2_codes_and_outputs\2_q\S8\1shenmu\317_141.png)
+  📄 317_141.txt  (403952 bytes, 2_codes_and_outputs\2_q\S8\1shenmu\317_141.txt)
+
+📁 2gaojiabao/  (2_codes_and_outputs\2_q\S8\2gaojiabao)
+------------------------------------------------------------
+  📄 296_117.csv  (9718 bytes, 2_codes_and_outputs\2_q\S8\2gaojiabao\296_117.csv)
+  📄 296_117.png  (75882 bytes, 2_codes_and_outputs\2_q\S8\2gaojiabao\296_117.png)
+  📄 296_117.txt  (404220 bytes, 2_codes_and_outputs\2_q\S8\2gaojiabao\296_117.txt)
+
+📁 3zhaoshiyao/  (2_codes_and_outputs\2_q\S8\3zhaoshiyao)
+------------------------------------------------------------
+  📄 244_59.csv  (9802 bytes, 2_codes_and_outputs\2_q\S8\3zhaoshiyao\244_59.csv)
+  📄 244_59.png  (95959 bytes, 2_codes_and_outputs\2_q\S8\3zhaoshiyao\244_59.png)
+  📄 244_59.txt  (405502 bytes, 2_codes_and_outputs\2_q\S8\3zhaoshiyao\244_59.txt)
+
+📁 4hanjiamao/  (2_codes_and_outputs\2_q\S8\4hanjiamao)
+------------------------------------------------------------
+  📄 187_81.csv  (10274 bytes, 2_codes_and_outputs\2_q\S8\4hanjiamao\187_81.csv)
+  📄 187_81.png  (86854 bytes, 2_codes_and_outputs\2_q\S8\4hanjiamao\187_81.png)
+  📄 187_81.txt  (422559 bytes, 2_codes_and_outputs\2_q\S8\4hanjiamao\187_81.txt)
+
+📁 5hengshan/  (2_codes_and_outputs\2_q\S8\5hengshan)
+------------------------------------------------------------
+  📄 196_58.csv  (10085 bytes, 2_codes_and_outputs\2_q\S8\5hengshan\196_58.csv)
+  📄 196_58.png  (83462 bytes, 2_codes_and_outputs\2_q\S8\5hengshan\196_58.png)
+  📄 196_58.txt  (413568 bytes, 2_codes_and_outputs\2_q\S8\5hengshan\196_58.txt)
+
+📁 6dianshi/  (2_codes_and_outputs\2_q\S8\6dianshi)
+------------------------------------------------------------
+  📄 218_56.csv  (10474 bytes, 2_codes_and_outputs\2_q\S8\6dianshi\218_56.csv)
+  📄 218_56.png  (77413 bytes, 2_codes_and_outputs\2_q\S8\6dianshi\218_56.png)
+  📄 218_56.txt  (418232 bytes, 2_codes_and_outputs\2_q\S8\6dianshi\218_56.txt)
+
+📁 3_ET/  (2_codes_and_outputs\3_ET)
+------------------------------------------------------------
+  📄 ET_daily_all1.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all1.npy)
+  📄 ET_daily_all2.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all2.npy)
+  📄 ET_daily_all3.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all3.npy)
+  📄 ET_daily_all4.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all4.npy)
+  📄 ET_daily_all5.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all5.npy)
+  📄 ET_daily_all6.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all6.npy)
+  📄 ET_daily_all7.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all7.npy)
+  📄 ET_daily_all8.npy  (192720128 bytes, 2_codes_and_outputs\3_ET\ET_daily_all8.npy)
+  📄 run_ET.py  (2522 bytes, 2_codes_and_outputs\3_ET\run_ET.py)
+
+📁 4_1_gradient_darcy/  (2_codes_and_outputs\4_1_gradient_darcy)
+------------------------------------------------------------
+  📄 7_1_run_gradient.py  (10886 bytes, 2_codes_and_outputs\4_1_gradient_darcy\7_1_run_gradient.py)
+
+📁 S1/  (2_codes_and_outputs\4_1_gradient_darcy\S1)
+------------------------------------------------------------
+  📄 current_scenario_annual_head_gradient_3layers.npy  (1584128 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_annual_head_gradient_3layers.npy)
+  📄 current_scenario_annual_spatial_upward_hydraulic_gradient.csv  (637856 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_annual_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_flood_spatial_upward_hydraulic_gradient.csv  (637189 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_flood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_mean_press_layer6_center_0p75m.csv  (1684970 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_mean_press_layer6_center_0p75m.csv)
+  📄 current_scenario_mean_press_layer7_center_0p40m.csv  (1687945 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_mean_press_layer7_center_0p40m.csv)
+  📄 current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv  (638076 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.csv  (100 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_regional_upward_hydraulic_gradient_statistics.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.txt  (545 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_regional_upward_hydraulic_gradient_statistics.txt)
+  📄 current_scenario_upward_hydraulic_gradient_proxy.csv  (1693856 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S1\current_scenario_upward_hydraulic_gradient_proxy.csv)
+
+📁 S2/  (2_codes_and_outputs\4_1_gradient_darcy\S2)
+------------------------------------------------------------
+  📄 current_scenario_annual_head_gradient_3layers.npy  (1584128 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_annual_head_gradient_3layers.npy)
+  📄 current_scenario_annual_spatial_upward_hydraulic_gradient.csv  (637836 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_annual_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_flood_spatial_upward_hydraulic_gradient.csv  (637126 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_flood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_mean_press_layer6_0p75m.png  (374740 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_mean_press_layer6_0p75m.png)
+  📄 current_scenario_mean_press_layer6_center_0p75m.csv  (1685003 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_mean_press_layer6_center_0p75m.csv)
+  📄 current_scenario_mean_press_layer7_0p40m.png  (372247 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_mean_press_layer7_0p40m.png)
+  📄 current_scenario_mean_press_layer7_center_0p40m.csv  (1688086 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_mean_press_layer7_center_0p40m.csv)
+  📄 current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv  (638063 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.csv  (100 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_regional_upward_hydraulic_gradient_statistics.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.txt  (545 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_regional_upward_hydraulic_gradient_statistics.txt)
+  📄 current_scenario_upward_hydraulic_gradient_proxy.csv  (1693836 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_upward_hydraulic_gradient_proxy.csv)
+  📄 current_scenario_upward_hydraulic_gradient_proxy.png  (339478 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S2\current_scenario_upward_hydraulic_gradient_proxy.png)
+
+📁 S3/  (2_codes_and_outputs\4_1_gradient_darcy\S3)
+------------------------------------------------------------
+  📄 current_scenario_annual_head_gradient_3layers.npy  (1584128 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_annual_head_gradient_3layers.npy)
+  📄 current_scenario_annual_spatial_upward_hydraulic_gradient.csv  (637928 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_annual_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_flood_spatial_upward_hydraulic_gradient.csv  (637365 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_flood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_mean_press_layer6_center_0p75m.csv  (1684886 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_mean_press_layer6_center_0p75m.csv)
+  📄 current_scenario_mean_press_layer7_center_0p40m.csv  (1687363 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_mean_press_layer7_center_0p40m.csv)
+  📄 current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv  (638116 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_nonflood_spatial_upward_hydraulic_gradient.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.csv  (100 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_regional_upward_hydraulic_gradient_statistics.csv)
+  📄 current_scenario_regional_upward_hydraulic_gradient_statistics.txt  (545 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_regional_upward_hydraulic_gradient_statistics.txt)
+  📄 current_scenario_upward_hydraulic_gradient_proxy.csv  (1693928 bytes, 2_codes_and_outputs\4_1_gradient_darcy\S3\current_scenario_upward_hydraulic_gradient_proxy.csv)
+
+📁 4_2_rootzone_water_availability/  (2_codes_and_outputs\4_2_rootzone_water_availability)
+------------------------------------------------------------
+  📄 7_2_rootzone_water_availability.py  (11537 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\7_2_rootzone_water_availability.py)
+
+📁 S1/  (2_codes_and_outputs\4_2_rootzone_water_availability\S1)
+------------------------------------------------------------
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_annual_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.npy  (528128 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_annual_rootzone_water_availability_0_1m.npy)
+  📄 current_scenario_flood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_flood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_nonflood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_nonflood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.csv  (94 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_regional_rootzone_water_availability_statistics.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.txt  (448 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S1\current_scenario_regional_rootzone_water_availability_statistics.txt)
+
+📁 S2/  (2_codes_and_outputs\4_2_rootzone_water_availability\S2)
+------------------------------------------------------------
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_annual_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.npy  (528128 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_annual_rootzone_water_availability_0_1m.npy)
+  📄 current_scenario_flood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_flood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_nonflood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_nonflood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.csv  (94 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_regional_rootzone_water_availability_statistics.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.txt  (448 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S2\current_scenario_regional_rootzone_water_availability_statistics.txt)
+
+📁 S3/  (2_codes_and_outputs\4_2_rootzone_water_availability\S3)
+------------------------------------------------------------
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_annual_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_annual_rootzone_water_availability_0_1m.npy  (528128 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_annual_rootzone_water_availability_0_1m.npy)
+  📄 current_scenario_flood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_flood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_nonflood_rootzone_water_availability_0_1m.csv  (594000 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_nonflood_rootzone_water_availability_0_1m.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.csv  (94 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_regional_rootzone_water_availability_statistics.csv)
+  📄 current_scenario_regional_rootzone_water_availability_statistics.txt  (448 bytes, 2_codes_and_outputs\4_2_rootzone_water_availability\S3\current_scenario_regional_rootzone_water_availability_statistics.txt)
+
+📁 4_3_veg_trans_mmday/  (2_codes_and_outputs\4_3_veg_trans_mmday)
+------------------------------------------------------------
+  📄 7_3_run_evap.py  (11778 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\7_3_run_evap.py)
+
+📁 S1/  (2_codes_and_outputs\4_3_veg_trans_mmday\S1)
+------------------------------------------------------------
+  📄 annual_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\annual_spatial_transpiration_mmday.csv)
+  📄 daily_mmday.npy  (192720128 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\daily_mmday.npy)
+  📄 daily_regional_mean_transpiration_mmday.csv  (9179 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\daily_regional_mean_transpiration_mmday.csv)
+  📄 daily_regional_mean_transpiration_mmday.npy  (3048 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\daily_regional_mean_transpiration_mmday.npy)
+  📄 flood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\flood_spatial_transpiration_mmday.csv)
+  📄 nonflood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\nonflood_spatial_transpiration_mmday.csv)
+  📄 regional_transpiration_statistics.csv  (94 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\regional_transpiration_statistics.csv)
+  📄 regional_transpiration_statistics.txt  (403 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S1\regional_transpiration_statistics.txt)
+
+📁 S2/  (2_codes_and_outputs\4_3_veg_trans_mmday\S2)
+------------------------------------------------------------
+  📄 annual_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\annual_spatial_transpiration_mmday.csv)
+  📄 daily_mmday.npy  (192720128 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\daily_mmday.npy)
+  📄 daily_regional_mean_transpiration_mmday.csv  (9179 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\daily_regional_mean_transpiration_mmday.csv)
+  📄 daily_regional_mean_transpiration_mmday.npy  (3048 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\daily_regional_mean_transpiration_mmday.npy)
+  📄 flood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\flood_spatial_transpiration_mmday.csv)
+  📄 nonflood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\nonflood_spatial_transpiration_mmday.csv)
+  📄 regional_transpiration_statistics.csv  (94 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\regional_transpiration_statistics.csv)
+  📄 regional_transpiration_statistics.txt  (403 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S2\regional_transpiration_statistics.txt)
+
+📁 S3/  (2_codes_and_outputs\4_3_veg_trans_mmday\S3)
+------------------------------------------------------------
+  📄 annual_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\annual_spatial_transpiration_mmday.csv)
+  📄 daily_mmday.npy  (192720128 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\daily_mmday.npy)
+  📄 daily_regional_mean_transpiration_mmday.csv  (9179 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\daily_regional_mean_transpiration_mmday.csv)
+  📄 daily_regional_mean_transpiration_mmday.npy  (3048 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\daily_regional_mean_transpiration_mmday.npy)
+  📄 flood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\flood_spatial_transpiration_mmday.csv)
+  📄 nonflood_spatial_transpiration_mmday.csv  (594000 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\nonflood_spatial_transpiration_mmday.csv)
+  📄 regional_transpiration_statistics.csv  (94 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\regional_transpiration_statistics.csv)
+  📄 regional_transpiration_statistics.txt  (403 bytes, 2_codes_and_outputs\4_3_veg_trans_mmday\S3\regional_transpiration_statistics.txt)
+
+📁 4_4_sh/  (2_codes_and_outputs\4_4_sh)
+------------------------------------------------------------
+  📄 7_4_run_sh.py  (12348 bytes, 2_codes_and_outputs\4_4_sh\7_4_run_sh.py)
+  📄 S1_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S1_qflx_sh_tot.npy)
+  📄 S2_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S2_qflx_sh_tot.npy)
+  📄 S3_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S3_qflx_sh_tot.npy)
+  📄 S4_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S4_qflx_sh_tot.npy)
+  📄 S5_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S5_qflx_sh_tot.npy)
+  📄 S6_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S6_qflx_sh_tot.npy)
+  📄 S7_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S7_qflx_sh_tot.npy)
+  📄 S8_qflx_sh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_4_sh\S8_qflx_sh_tot.npy)
+
+📁 4_5_lh/  (2_codes_and_outputs\4_5_lh)
+------------------------------------------------------------
+  📄 7_5_run_lh.py  (12660 bytes, 2_codes_and_outputs\4_5_lh\7_5_run_lh.py)
+  📄 S1_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S1_qflx_lh_tot.npy)
+  📄 S2_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S2_qflx_lh_tot.npy)
+  📄 S3_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S3_qflx_lh_tot.npy)
+  📄 S4_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S4_qflx_lh_tot.npy)
+  📄 S5_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S5_qflx_lh_tot.npy)
+  📄 S6_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S6_qflx_lh_tot.npy)
+  📄 S7_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S7_qflx_lh_tot.npy)
+  📄 S8_qflx_lh_tot.npy  (192720128 bytes, 2_codes_and_outputs\4_5_lh\S8_qflx_lh_tot.npy)
+
+📁 3_fig/  (3_fig)
+------------------------------------------------------------
+  📄 figure1.png  (3346888 bytes, 3_fig\figure1.png)
+  📄 figure10.png  (1872836 bytes, 3_fig\figure10.png)
+  📄 figure11.png  (6173980 bytes, 3_fig\figure11.png)
+  📄 figure12.png  (3104689 bytes, 3_fig\figure12.png)
+  📄 figure13.png  (5511543 bytes, 3_fig\figure13.png)
+  📄 figure14.png  (2817284 bytes, 3_fig\figure14.png)
+  📄 figure15.png  (6763061 bytes, 3_fig\figure15.png)
+  📄 figure16.png  (2379424 bytes, 3_fig\figure16.png)
+  📄 figure2.png  (2288876 bytes, 3_fig\figure2.png)
+  📄 figure3.png  (874846 bytes, 3_fig\figure3.png)
+  📄 figure4.png  (1978017 bytes, 3_fig\figure4.png)
+  📄 figure5.png  (1797213 bytes, 3_fig\figure5.png)
+  📄 figure6.png  (1595918 bytes, 3_fig\figure6.png)
+  📄 figure7.png  (2141386 bytes, 3_fig\figure7.png)
+  📄 figure8.png  (1459044 bytes, 3_fig\figure8.png)
+  📄 figure9.png  (1221021 bytes, 3_fig\figure9.png)
+

@@ -1,0 +1,18 @@
+Vegetation transpiration statistics
+Variable: vegetation transpiration
+Unit: mm/day
+
+Annual / 全年
+min  = 0.000000 mm/day
+max  = 0.279612 mm/day
+mean = 0.034926 mm/day
+
+Non-flood season / 非汛期（前一半时间）
+min  = 0.000000 mm/day
+max  = 0.209203 mm/day
+mean = 0.024274 mm/day
+
+Flood season / 汛期（后一半时间）
+min  = 0.000000 mm/day
+max  = 0.511325 mm/day
+mean = 0.066535 mm/day

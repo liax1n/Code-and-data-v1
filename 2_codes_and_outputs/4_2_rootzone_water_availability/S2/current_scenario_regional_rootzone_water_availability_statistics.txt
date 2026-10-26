@@ -1,0 +1,19 @@
+Root-zone water availability statistics
+Variable: thickness-weighted saturation in 0-1 m root zone
+Statistic object: seasonal / annual spatial mean root-zone water availability
+Unit: dimensionless saturation
+
+Annual / 全年
+min  = 0.176305
+max  = 1.000000
+mean = 0.709647
+
+Non-flood season / 非汛期（Oct-Jun）
+min  = 0.178049
+max  = 1.000000
+mean = 0.689604
+
+Flood season / 汛期（Jul-Sep）
+min  = 0.171128
+max  = 1.000000
+mean = 0.769120
